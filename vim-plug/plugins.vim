@@ -23,12 +23,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
 
-  if exists('g:vscode')
+  "if exists('g:vscode')
     " Easy motion for VSCode
     " Plug 'asvetliakov/vim-easymotion'
-    Plug 'ChristianChiarulli/vscode-easymotion'
-    Plug 'machakann/vim-highlightedyank'
-  else
+    "Plug 'ChristianChiarulli/vscode-easymotion'
+    "Plug 'machakann/vim-highlightedyank'
+  "else
 
     " Easymotion
     Plug 'easymotion/vim-easymotion'
@@ -100,7 +100,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+    " Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+    Plug 'iamcco/markdown-preview.vim'
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
@@ -112,7 +113,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
-    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+    " Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
@@ -169,7 +170,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'romgrk/lib.kom'
     " Plug 'brooth/far.vim'
     " Debugging
-  endif
+    " R language
+    Plug 'jalvesaq/Nvim-R', {'branch': 'stable'}
+   
+  "endif
 
 call plug#end()
 
