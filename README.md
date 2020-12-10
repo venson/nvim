@@ -154,35 +154,9 @@ To use **vim-gists** you will need to configure the following:
 git config --global github.user <username>
 ```
 
-## VSCodium & Neo Vim Extension
 
-[VSCodium](https://github.com/VSCodium/vscodium) contains build files to generate free release binaries of Microsoft's VS Code.
 
-You can install it on multiple platforms:
 
-- Mac
-
-  ```
-  brew cask install vscodium
-  ```
-
-- Arch
-
-  ```
-  yay -s vscodium-bin
-  ```
-
-- Snap
-
-  ```
-  snap install codium
-  ```
-
-[The Neo Vim Extension](https://github.com/asvetliakov/vscode-neovim) is available in the VSCode marketplace
-
-I recommend using this alongside the VSCode `which-key` extension
-
-Along with some of my config files you can find in `utils/vscode_config`
 
 ## TODO
 
