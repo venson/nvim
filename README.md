@@ -35,7 +35,7 @@ bash <(curl -s https://raw.githubusercontent.com/venson/nvim/master/utils/instal
 - Arch
 
   ```
-  yay -S neovim-nightly-git # Latest
+  yay -S neovim-git # Latest
   ```
 
 ## Clone this repo into your config
