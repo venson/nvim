@@ -5,7 +5,7 @@ imap <C-j> <C-w>j
 imap <C-k> <C-w>k
 imap <C-l> <C-w>l
 " Leader key
-let g:mapleader = " "
+let g:mapleader = "\<Space>"
 let g:maplocalleader = ','
 nnoremap <Space> <Nop>
 
