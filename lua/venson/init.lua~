@@ -1,0 +1,5 @@
+require("venson.remap")
+-- require("venson.lazy")
+require("venson.set")
+require("lazy").setup("venson.plugins")
+print("hello from venson init.lua")
